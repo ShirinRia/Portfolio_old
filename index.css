@@ -1,9 +1,8 @@
-*{
-    margin: 0;
-}
+
 /* common heading style */
 body{
     font-family: 'Open Sans', sans-serif;
+    margin:0px;
 }
 .txtprmry{
     color:#FD6E0A
@@ -104,6 +103,9 @@ main{
     max-width: 1140px;
     margin: 0 auto; /*jottuk jayga ase vagavagi kore niye nibe*/
 }
+main section{
+    margin-top: 130px;
+}
 .about{
     margin:130px 0px;
 
@@ -130,4 +132,83 @@ font-weight: 400;
 .infodesc{
     color: #474747;
     font-weight: 700;
+}
+#whatidodesc{
+    padding:30px 150px;
+}
+.skillscontainer{
+    display:flex;
+    gap:24px;
+}
+.skill{
+    padding:30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skilldesc{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+}
+.resumecontainer{
+    display: flex;
+    gap: 24px;
+}
+.resumecolumtitle{
+    color:  #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.rsmitminf{
+    color: #757575;
+    font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+margin-top:0px;
+}
+.resumeitemdesc{
+    color: #757575;
+
+font-size: 16px;
+font-weight: 400;
+}
+.rsmitmttl{
+    color:  #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resumecontainer hr{
+    margin: 30px 10px;
+}
+.dwnldcv{
+    margin-top: 50px;
+    text-align: center;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    gap:115px;
+    background: #FFF8F3;
+   padding:130px 200px;
+   margin:100px 0px 0px;
+}
+.footerclmn{
+    width:50%;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    display:block;
+    margin-bottom: 25px;
+    padding:18px 30px;
+    border:none;
+    border-radius: 5px;
+background-color:  #FFF;
+color:  #757575;
+font-size: 16px;
+font-weight: 400;
+width: 100%;
+}
+.sociallinks a {
+    margin-right: 25px;
 }

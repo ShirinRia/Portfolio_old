@@ -17,11 +17,16 @@ body{
    font-weight: 700;
    padding: 12px 24px;
 }
+/* header */
+.header{
+    background-color:#FFF8F3
+}
 /* nav */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 .navtitle{
     color: #181818;
@@ -40,4 +45,42 @@ nav li{
 nav a{
     text-decoration: none;
     color:#474747;
+}
+
+/* banner */
+.banner{
+    padding:30px 30px 0px 150px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:  bottom right;
+
+}
+.bannercntnt{
+    /* background-color:#181818; */
+    max-width:600px;
+    /* width: 600px; */
+}
+.banner img{
+    width: 500px;
+height: 600px;
+
+}
+.bnrgreeting{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0px;
+}
+.bnrname{
+    color: #181818;
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.bnrtxt{
+    margin-bottom: 30px;
 }
